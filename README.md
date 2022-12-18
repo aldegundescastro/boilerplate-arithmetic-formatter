@@ -30,9 +30,9 @@ There should be dashes at the bottom of each problem. The dashes should run alon
 The unit tests for this project are in test_module.py. We are running the tests from test_module.py in main.py for your convenience. The tests will run automatically whenever you hit the "run" button. Alternatively you may run the tests by inputting pytest in the console.
 
 
-Obs:
+# Error Solution
 TypeError: __init__() got an unexpected keyword argument 'allow_abbrev'
-solution : pip uninstall argparse
+  Solution : pip uninstall argparse
 
 
 
