@@ -69,14 +69,11 @@ def arithmetic_arranger(problems, argument=False):
       opmax = len(op2)
 
     string_dashes = string_dashes + '-' * (opmax + 2)
-
     string_result = string_result + ' ' * (opmax + 2 - len(r)) + r
 
     if argument == True:
       arranged_problems = string1 + '\n' + string2 + '\n' + string_dashes + '\n' + string_result
     else:
       arranged_problems = string1 + '\n' + string2 + '\n' + string_dashes
-
-  #print('\n', string1, '\n', string2, '\n', string_dashes)
 
   return arranged_problems
